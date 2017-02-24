@@ -80,7 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: dc3uv8883hgerd
-  username: ywskgwjblfenwf
+  database: tuekeramik_test
+  username: tuekeramik
   password: <%= ENV['TUEKERAMIK_DATABASE_PASSWORD'] %>
-  port: 5432
