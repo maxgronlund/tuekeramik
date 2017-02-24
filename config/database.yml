@@ -82,4 +82,5 @@ production:
   <<: *default
   database: dc3uv8883hgerd
   username: ywskgwjblfenwf
-  password: 717cc4012b38dafb416dcbd503ed83e1e150e5b4cdf5d8649842b02d860034d0
+  password: <%= ENV['TUEKERAMIK_DATABASE_PASSWORD'] %>
+  port: 5432
